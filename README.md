@@ -1,7 +1,7 @@
 vtfinder
 ========
 
-###pykd script to dynamically find vtables on heap (windows x86/x64)###
+###pykd script to dynamically find vtables on heap###
 
 This [pykd](https://pykd.codeplex.com) script helps find vtables on heaps where mostly static data is stored
 (no obvious vtables, function pointers, etc.). It sets a breakpoint on free (ntdll!RtlFreeHeap) and checks
